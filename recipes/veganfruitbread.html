@@ -36,17 +36,20 @@
     </div>
     
     <script>
-        fetch('ingredients.json')
-            .then(response => response.json())
-            .then(data => {
-                const ingredientList = document.getElementById('ingredient-list');
-                data.ingredients.forEach(ingredient => {
-                    const listItem = document.createElement('li');
-                    listItem.innerHTML = `<span itemprop="recipeIngredient">${ingredient.quantity} of ${ingredient.name}</span>`;
-                    ingredientList.appendChild(listItem);
-                });
-            })
-            .catch(error => console.error('Error fetching JSON:', error));
+fetch('ingredients.json')
+    .then(response => response.json())
+    .then(data => {
+        const ingredientList = document.getElementById('ingredient-list');
+        data.ingredients.forEach(ingredient => {
+            const listItem = document.createElement('li');
+            const span = document.createElement('span');
+            span.setAttribute('itemprop', 'recipeIngredient');
+            span.textContent = `${ingredient.quantity} of ${ingredient.name}`;
+            listItem.appendChild(span);
+            ingredientList.appendChild(listItem);
+        });
+    })
+    .catch(error => console.error('Error fetching JSON:', error));
             </script>
 </body>
 </html>
