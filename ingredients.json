@@ -1,0 +1,44 @@
+{
+  "ingredients": [
+    {
+      "name": "Flour",
+      "quantity": "300g"
+    },
+    {
+      "name": "Brown sugar",
+      "quantity": "150g"
+    },
+    {
+      "name": "Mixed dried fruit (raisins, apricots, figs)",
+      "quantity": "200g"
+    },
+    {
+      "name": "Grated orange zest",
+      "quantity": "1 tablespoon"
+    },
+    {
+      "name": "Grated lemon zest",
+      "quantity": "1 tablespoon"
+    },
+    {
+      "name": "Baking powder",
+      "quantity": "1 packet"
+    },
+    {
+      "name": "Almond milk",
+      "quantity": "200ml"
+    },
+    {
+      "name": "Vegetable oil",
+      "quantity": "100ml"
+    },
+    {
+      "name": "Chopped almonds",
+      "quantity": "50g"
+    },
+    {
+      "name": "Salt",
+      "quantity": "1 pinch"
+    }
+  ]
+}
