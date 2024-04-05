@@ -21,20 +21,20 @@
       "quantity": "1 Tazza"
     },
     {
-      "name": "Olio vegetale",
-      "quantity": "¾ Tazza"
+      "name": "Almond milk",
+      "quantity": "200ml"
     },
     {
-      "name": "Mandorle tritate",
+      "name": "Vegetable oil",
+      "quantity": "100ml"
+    },
+    {
+      "name": "Chopped almonds",
       "quantity": "50g"
     },
     {
-      "name": "Sale",
-      "quantity": "1 pizzico"
-    },
-    {
-      "name": "Bicarbonato",
-      "quantity": "1 cucchiaino"
-    }   
+      "name": "Salt",
+      "quantity": "1 pinch"
+    }
   ]
 }
