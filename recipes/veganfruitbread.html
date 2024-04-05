@@ -39,12 +39,13 @@
 fetch('ingredients.json')
     .then(response => response.json())
     .then(data => {
+        const separator = ' di ';
         const ingredientList = document.getElementById('ingredient-list');
         data.ingredients.forEach(ingredient => {
             const listItem = document.createElement('li');
             const span = document.createElement('span');
             span.setAttribute('itemprop', 'recipeIngredient');
-            span.textContent = `${ingredient.quantity} of ${ingredient.name}`;
+            span.textContent = `${ingredient.quantity}${separator}${ingredient.name}`;
             listItem.appendChild(span);
             ingredientList.appendChild(listItem);
         });
