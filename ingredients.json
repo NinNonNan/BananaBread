@@ -1,0 +1,40 @@
+{
+  "ingredients": [
+    {
+      "name": "Farina",
+      "quantity": "2 tazze"
+    },
+    {
+      "name": "Zucchero di canna",
+      "quantity": "½ tazza"
+    },
+    {
+      "name": "Frutta secca mista (noci, mandorle, pinoli, anacardi, semi di zucca)",
+      "quantity": "1 tazza"
+    },
+    {
+      "name": "Uva passa",
+      "quantity": "¼ tazza"
+    },
+    {
+      "name": "Lievitante in polvere per dolci",
+      "quantity": "1 bustina"
+    },
+    {
+      "name": "Latte di avena",
+      "quantity": "1 tazza"
+    },
+    {
+      "name": "Olio di semi",
+      "quantity": "¾ tazza"
+    },
+    {
+      "name": "Sale",
+      "quantity": "un pizzico"
+    },
+    {
+      "name": "Bicarbonato",
+      "quantity": "1 cucchiaino"
+    }
+  ]
+}
