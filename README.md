@@ -1,2 +1,2 @@
 # veganfruitbread
-Link to recipe <a src="https://ninonononano.github.io/20240504_veganfruitbread/">Vegan Fruit Bread!</a>
+Link to recipe <a href="https://ninonononano.github.io/20240504_veganfruitbread/" target=_blank>Vegan Fruit Bread!</a>
