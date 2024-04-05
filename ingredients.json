@@ -1,36 +1,37 @@
 {
   "ingredients": [
     {
-      "nome": "Farina",
-      "quantità": "2 Tazze"
+      "name": "Farina",
+      "quantity": "2 Tazze"
     },
     {
-      "nome": "Zucchero di canna",
-      "quantità": "½ Tazza"
+      "name": "Zucchero di canna",
+      "quantity": "½ Tazza"
     },
     {
-      "nome": "Frutta secca mista (noci, mandorle, pinoli, anacardi, semi di zucca)",
-      "quantità": "1 Tazza"
+      "name": "Frutta secca mista (noci, mandorle, pinoli, anacardi, semi di zucca)",
+      "quantity": "1 Tazza"
     },
     {
-      "nome": "Lievitante in polvere per dolci",
-      "quantità": "1 bustina"
+      "name": "Lievitante in polvere per dolci",
+      "quantity": "1 bustina"
     },
     {
-      "nome": "Latte di mandorla",
-      "quantità": "1 Tazza"
+      "name": "Latte di mandorla",
+      "quantity": "1 Tazza"
     },
     {
-      "nome": "Olio vegetale",
-      "quantità": "¾ Tazza"
+      "name": "Olio vegetale",
+      "quantity": "¾ Tazza"
     },
     {
-      "nome": "Mandorle tritate",
-      "quantità": "50g"
+      "name": "Mandorle tritate",
+      "quantity": "50g"
     },
     {
-      "nome": "Sale",
-      "quantità": "1 pizzico"
+      "name": "Sale",
+      "quantity": "1 pizzico"
     }
   ]
 }
+
