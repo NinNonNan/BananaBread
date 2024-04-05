@@ -1,5 +1,5 @@
 {
-  "ingredienti": [
+  "ingredients": [
     {
       "nome": "Farina",
       "quantità": "2 Tazze"
@@ -22,7 +22,7 @@
     },
     {
       "nome": "Olio vegetale",
-      "quantità": "¾ di Tazza"
+      "quantità": "¾ Tazza"
     },
     {
       "nome": "Mandorle tritate",
