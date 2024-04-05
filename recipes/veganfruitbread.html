@@ -7,23 +7,6 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
-    <h1>Ingredients List</h1>
-    <ul id="ingredient-list"></ul>
-
-    <script>
-        fetch('ingredients.json')
-            .then(response => response.json())
-            .then(data => {
-                const ingredientList = document.getElementById('ingredient-list');
-                data.ingredients.forEach(ingredient => {
-                    const listItem = document.createElement('li');
-                    listItem.textContent = `${ingredient.quantity} of ${ingredient.name}`;
-                    ingredientList.appendChild(listItem);
-                });
-            })
-            .catch(error => console.error('Error fetching JSON:', error));
-    </script>
-
     <div itemscope itemtype="https://schema.org/Recipe">
         <span itemprop="name">Pan di Frutta Vegano</span>
         By <span itemprop="author">Antonino Ragusa</span>,
@@ -42,27 +25,28 @@
             <span itemprop="calories">240 calories</span>,
             <span itemprop="fatContent">9 grams fat</span>
         </div>
-      
-        Ingredients:
-        - <span itemprop="recipeIngredient">3 or 4 ripe bananas, smashed</span>
-        - <span itemprop="recipeIngredient">1 egg</span>
-        - <span itemprop="recipeIngredient">3/4 cup of sugar</span>
-        ...
-      
-        Instructions:
+        <span>Ingredients:</span> 
+        <ul id="ingredient-list"></ul>
+        <span>Instructions:</span>
         <span itemprop="recipeInstructions">
         Preheat the oven to 350 degrees. Mix in the ingredients in a bowl. Add
         the flour last. Pour the mixture into a loaf pan and bake for one hour.
         </span>
-      
-        140 comments:
-        <div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter">
-            <meta itemprop="interactionType" content="https://schema.org/CommentAction" />
-            <meta itemprop="userInteractionCount" content="140" />
-        </div>
-        From Janel, May 5 -- thank you, great recipe!
-        ...
     </div>
+    
+    <script>
+        fetch('ingredients.json')
+            .then(response => response.json())
+            .then(data => {
+                const ingredientList = document.getElementById('ingredient-list');
+                data.ingredients.forEach(ingredient => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `<span itemprop="recipeIngredient">${ingredient.quantity} of ${ingredient.name}</span>`;
+                    ingredientList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
 </body>
 </html>
 
