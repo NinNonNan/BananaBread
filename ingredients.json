@@ -1,44 +1,40 @@
 {
   "ingredients": [
     {
-      "name": "Flour",
-      "quantity": "300g"
+      "name": "Farina",
+      "quantity": "2 Tazze"
     },
     {
-      "name": "Brown sugar",
-      "quantity": "150g"
+      "name": "Zucchero di canna",
+      "quantity": "½ Tazza"
     },
     {
-      "name": "Mixed dried fruit (raisins, apricots, figs)",
-      "quantity": "200g"
+      "name": "Frutta secca mista (noci, mandorle, pinoli, anacardi, semi di zucca)",
+      "quantity": "1 Tazza"
     },
     {
-      "name": "Grated orange zest",
-      "quantity": "1 tablespoon"
+      "name": "Lievitante in polvere per dolci",
+      "quantity": "1 bustina"
     },
     {
-      "name": "Grated lemon zest",
-      "quantity": "1 tablespoon"
+      "name": "Latte di mandorla",
+      "quantity": "1 Tazza"
     },
     {
-      "name": "Baking powder",
-      "quantity": "1 packet"
+      "name": "Olio vegetale",
+      "quantity": "¾ Tazza"
     },
     {
-      "name": "Almond milk",
-      "quantity": "200ml"
-    },
-    {
-      "name": "Vegetable oil",
-      "quantity": "100ml"
-    },
-    {
-      "name": "Chopped almonds",
+      "name": "Mandorle tritate",
       "quantity": "50g"
     },
     {
-      "name": "Salt",
-      "quantity": "1 pinch"
-    }
+      "name": "Sale",
+      "quantity": "1 pizzico"
+    },
+    {
+      "name": "Bicarbonato",
+      "quantity": "1 cucchiaino"
+    }   
   ]
 }
