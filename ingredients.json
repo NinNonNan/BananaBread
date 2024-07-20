@@ -2,19 +2,11 @@
   "ingredients": [
     {
       "name": "Farina",
-      "quantity": "2 tazze"
+      "quantity": "2 e ½ tazze"
     },
     {
       "name": "Zucchero di canna",
       "quantity": "½ tazza"
-    },
-    {
-      "name": "Frutta secca mista (noci, mandorle, pinoli, anacardi, semi di zucca)",
-      "quantity": "1 tazza"
-    },
-    {
-      "name": "Uva passa",
-      "quantity": "¼ tazza"
     },
     {
       "name": "Lievitante in polvere per dolci",
@@ -35,6 +27,14 @@
     {
       "name": "Bicarbonato",
       "quantity": "1 cucchiaino"
+    },
+    {
+      "name": "Noci pesche",
+      "quantity": 4
+    },
+    {
+      "name": "Fragole",
+      "quantity": "1 vaschetta"
     }
   ]
 }
