@@ -21,8 +21,9 @@
       
         <div itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
             <p>Nutrition facts:
-            <span itemprop="calories">240 calories</span>,
-            <span itemprop="fatContent">9 grams fat</span></p>
+                <span itemprop="calories">240 calories</span>,
+                <span itemprop="fatContent">9 grams fat</span>
+            </p>
         </div>
 
         <h3>Ingredients:</h3>
@@ -33,25 +34,24 @@
         Preheat the oven to 350 degrees. Mix in the ingredients in a bowl. Add
         the flour last. Pour the mixture into a loaf pan and bake for one hour.
         </span>
-    </div>
-    
+    </div>   
     <script>
-fetch('ingredients.json')
-    .then(response => response.json())
-    .then(data => {
-        const separator = ' di ';
-        const ingredientList = document.getElementById('ingredient-list');
-        data.ingredients.forEach(ingredient => {
-            const listItem = document.createElement('li');
-            const span = document.createElement('span');
-            span.setAttribute('itemprop', 'recipeIngredient');
-            span.textContent = `${ingredient.quantity}${separator}${ingredient.name}`;
-            listItem.appendChild(span);
-            ingredientList.appendChild(listItem);
-        });
-    })
-    .catch(error => console.error('Error fetching JSON:', error));
-            </script>
+        fetch('ingredients.json')
+            .then(response => response.json())
+            .then(data => {
+                const separator = ' di ';
+                const ingredientList = document.getElementById('ingredient-list');
+                data.ingredients.forEach(ingredient => {
+                    const listItem = document.createElement('li');
+                    const span = document.createElement('span');
+                    span.setAttribute('itemprop', 'recipeIngredient');
+                    span.textContent = `${ingredient.quantity}${separator}${ingredient.name}`;
+                    listItem.appendChild(span);
+                    ingredientList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
 </body>
 </html>
 
